@@ -1,9 +1,10 @@
 :root{
     --primary-color: #a200ff;
     --secondary-color: #ffffff;
-    --text-color: #000;
+    --text-color: #ffffff;
     --button-color: #6200ea;
     --background-color: #170290;
+    --hover-color: #000000;
 }
 body {
     background-color: var(--background-color);
@@ -11,19 +12,22 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    
+    background-image:url(img/background.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .header{
     background-color: var(--primary-color);
-    display: absolute;
     display: flex;
-    grid-area: header;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
 }
 .loginbox{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--primary-color);
+    background-color: transparent;
     width: 40%;
     height: 10%;
     border-radius: 10px;
@@ -32,9 +36,6 @@ body {
     align-items: center;
     margin: auto;
     
-}
-a{
-    text-decoration: none;
 }
 .loginbox input{
     width: 80%;
@@ -53,4 +54,27 @@ a{
     cursor: pointer;
     border-color: var(--text-color);
     width: 90%;
+}
+.loginbox button:hover{
+    background-color: var(--secondary-color);
+    color: var(--button-color);
+}
+nav li{
+    list-style: none;
+    display: inline;
+    margin: 0, 0, 15px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: medium;
+    justify-content: space-between;
+    margin: 0, 0, 15px;
+}
+nav a:hover{
+    color: var(--hover-color);
+    background-color: var(--button-color);
+    padding: 5px;
+    border-radius: 20%;
 }
