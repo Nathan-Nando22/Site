@@ -1,0 +1,57 @@
+.Schwarzenegger{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.Schwarzenegger h1{
+    text-decoration: underline;
+}
+body{
+    background-image:url(img/schwarzenegger.webp);
+}
+
+.Schwarzenegger .imagem-schwarzenegger{
+    text-align: center;
+    
+}
+#banner{
+    width: 50%;
+    height: 50%
+}
+.Ronnie-Coleman{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.Ronnie-Coleman h1{
+    text-decoration: underline;
+}
+body{
+    background-image:url(img/schwarzenegger.webp);
+}
+
+.Ronnie-Coleman .imagem-coleman{
+    text-align: center;
+    
+}
+#banner2{
+    width: 60%;
+    height: 60%
+}
+.Titulo-massa{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}

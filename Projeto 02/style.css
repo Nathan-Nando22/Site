@@ -1,0 +1,56 @@
+:root{
+    --primary-color: #a200ff;
+    --secondary-color: #ffffff;
+    --text-color: #000;
+    --button-color: #6200ea;
+    --background-color: #170290;
+}
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    background-color: var(--primary-color);
+    display: absolute;
+    display: flex;
+    grid-area: header;
+}
+.loginbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-color);
+    width: 40%;
+    height: 10%;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    margin: auto;
+    
+}
+a{
+    text-decoration: none;
+}
+.loginbox input{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-color: var(--text-color);
+    border-radius: 5px;
+}
+.loginbox button{
+    color: var(--secondary-color);
+    width: 80%;
+    padding: 10px;
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: var(--text-color);
+    width: 90%;
+}
